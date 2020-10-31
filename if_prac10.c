@@ -18,24 +18,24 @@ int main(){
 	
 	switch(opr){
 		case '+':
-		res = num1 + num2;
+		result = num1 + num2;
 		break;
 		
 		case '-':
-		res = num1 - num2;
+		result = num1 - num2;
 		break;
 		
 		case '*':
-		res = num1 * num2;
+		result = num1 * num2;
 		break;
 		
 		case '/':
-		res = num1 / num2;
+		result = num1 / num2;
 		break;
 		
 		default:
 		printf("Invalid operator!\n");
 	}
 	
-	printf("Result is: %d", res);
+	printf("Result is: %d", result);
 }
