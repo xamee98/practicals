@@ -7,14 +7,15 @@ int main(){
 	int result;
 	char opr;
 	
+	printf("Enter Operator: ");
+	scanf("%c", &opr);
+	
 	printf("Enter first number: ");
-	scanf("%d", num1);
+	scanf("%d", &num1);
 	
 	printf("Enter Second number: ");
-	scanf("%d", num2);
+	scanf("%d", &num2);
 	
-	printf("Enter Operator: ");
-	scanf("%c", opr);
 	
 	switch(opr){
 		case '+':
